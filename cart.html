@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <title>BREW AND BEANS</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="cart.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+        <body>
+            <div class="nav">
+            <div class="topnav">
+                <input id="sb" type="text" placeholder=" Search....">
+                <button id="sbb" type="search"><i class="fa fa-search"></i></button>
+                <button class="btn"><img src="business.png"></button>
+                <button class="btn"><i class="fa fa-user"></i></button>
+                <div class="more">
+                    <button class="btn"><i class="fa fa-bars"></i>
+                
+                    <div class="more-dropdown">
+                        <a href="##">ABOUT US</a>
+                        <a href="##">REVIEWS</a>
+                        <a href="##">EVENTS</a>
+    
+                    </div>
+                    </button>
+                </div>
+            </div>
+            
+            <img id="logo" src="BREW & BEANS (1).png">  
+            
+            
+            
+            <nav class="navbar">
+                <ul>
+                    <li id="name">BREW & BEANS</li>
+                    <li class="categories"><button class="icons"><i class="fa fa-home"></i></button><br/><a href="file:///D:/IIT/CM1605/COURSE_WORK/coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><i class="fa fa-bolt"></i></button><br/><a href="#promotions">PROMOTIONS</a></li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><i class="fa fa-book"></i></button><br/><a href="#menu">MENU</a></li>
+                        <div class="dropdown-content">
+                            <a href="file:///D:/IIT/CM1605/COURSE_WORK/menu.html">FOOD</a>
+                            <a href="##">BEVERAGES</a>
+                            <a href="##">DESSERTS</a>
+                        </div>
+                    </div>
+                    <li class="categories"><button class="icons"><i class="fa fa-phone"></i></button><br/><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
+
+            <div class="form">
+            <form class="form1">
+                <fieldset id="personal-details">
+                    <h3 class="form-topic">WHO ARE WE DELIVERING TO?</h3>
+                    <label name="first name">FIRST NAME</label>
+                    <br/>
+                    <input class="input" type="text" name="first name">
+                    <br/>
+                    <br/>
+                    <label name="last name">LAST NAME</label>
+                    <br/>
+                    <input class="input" type="text" name="last name">
+                    <br/>
+                    <br/>
+                    <label name="mobite">MOBILE</label>
+                    <br/>
+                    <input class="input" type="text" name="mobile">
+                    <br/>
+                    <br/>
+                    <label name="email">EMAIL</label>
+                    <br/>
+                    <input class="input" type="text" name="email">
+                </fieldset>
+            </form>
+            <br/>
+            <form class="form2">
+                <fieldset id="address">
+                    <h3 class="form-topic">WHERE SHOULD WE DELIVER IT?</h3>
+                    <label name="address">ADDRESS</label>
+                    <br/>
+                    <input class="input" type="text" name="address">
+                    <br/>
+                    <br/>
+                    <label name="instructions">MORE INSTRUCTIONS</label>
+                    <br/>
+                    <input class="input" type="text" name="instructions"></input>
+                </fieldset>
+            </form>
+            <br/>
+            <form class="form3">
+                <fieldset id="payment-method">
+                    <h3 class="form-topic">HOW WOULD YOU LIKE TO PAY?</h3>
+                    <input type="radio" name="pay-online" >
+                    <label name="pay-online">PAY ONLINE</label>
+                    <br/>
+                    <input type="radio" name="pay-delivery">
+                    <label name="pay-delivery">PAY ON DELIVERY</label>
+                    <br/>
+                    <br/>
+                    <hr/>
+                    <br/>
+                    <div class="terms-cond">
+                    <input type="checkbox">
+                    <label name="T&C">I have read and agreed to the Terms and Conditions</label>
+                    <br/>
+                    <button id="read">Read</button>
+                    </div>
+                    <br/>
+                    <br/>
+                    <button id="place-order">PLACE YOUR ORDER</button>
+                    <br/>
+                </fieldset>
+            </form>
+            </div>
+
+            <div class="cart">
+                <h3 id="my-order">MY ORDER</h3>
+                <table class="myorderlist">
+                    <tr>
+                    <th>Items</th><th>Unit Price</th><th>Quantity</th><th>Amount</th>
+                    <th></th>
+                    <tr>
+                    
+                    <tr>
+                        <td>Item 1</td>
+                        <td>$5</td>
+                        <td><input class="quantity" type="number" value="2"></td>
+                        <td>$10</td>
+                        <td><button class="delete"><i class="fa fa-trash"></i></button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Item 2</td>
+                        <td>$8</td>
+                        <td><input class="quantity" type="number" value="1"></td>
+                        <td>$8</td>
+                        <td><button class="delete"><i class="fa fa-trash"></i></button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Item 1</td>
+                        <td>$23</td>
+                        <td><input class="quantity" type="number" value="1"></td>
+                        <td>$23</td>
+                        <td><button class="delete"><i class="fa fa-trash"></i></button></td>
+                    </tr>
+
+                    <tr>
+                        
+                    </tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    <tr>
+                        <td></td>
+                        
+                        <td id="sub-total" colspan="2">SUB TOTAL : </td>
+                        
+                        <td id="sub-total">$41.00</td>
+                      
+                    </tr>
+
+                    <tr id="service-charge">
+                        <td colspan="3">service charge : </td>
+                        
+                        <td>$4.5</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        
+                        <td  id="total" colspan="2">TOTAL : </td>
+                        
+                        <td  id="total">$45.50</td>
+                   
+                    </tr>
+
+                </table>
+
+                
+
+            </div>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer>
+                <table class="footer">
+                    <tr><th>CONTACT US</th>
+                    <th>CONNECT WITH US</th>
+                    <th>LOCATION</th>
+                    <th>PRIVACY POLICY</th></tr>
+                    <tr>
+                        <td><address mailto:"brewnbeans@gmail.com">brewnbeans@gmail.com</address>
+                        <td><button class="social"><i class="fa fa-facebook"></i></button><button class="social"><i class="fa fa-instagram"></i></button></td>
+                        <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                        <td>Copyrights 2025 BrewnBeans</td>
+                    </tr>
+                    <tr>
+                        <td>0710663376</td>
+                        <td></td>
+                        <td></td>
+                        <td>All Rights Reserved</td>
+                    </tr>
+                </table>              
+            </footer>
+
+            </body>
+</html>
